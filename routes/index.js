@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'NC DEVOPS' });
+  res.render('index', { title: 'NC DEVOPS 2022' });
 });
 
 module.exports = router;
