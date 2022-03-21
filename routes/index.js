@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Jenkins Session 2' });
+  res.render('index', { title: 'Jenkins Session 3' });
 });
 
 module.exports = router;
